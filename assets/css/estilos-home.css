@@ -1,0 +1,70 @@
+ 
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    position: relative;
+    height: 100vh;
+    background-image: url(/assets/images/portadas/portada-home.png);
+    background-size: cover;
+    object-fit: cover;
+    background-position-y: 100%;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    width: 550px;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.botones {
+    position: absolute;
+    width: 600px;
+    top: 40%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+}
+
+
+.boton {
+    outline: none;
+    border-radius: 5px;
+    transition: 0.25s;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-rosa {
+    background-color: #eca8b2;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn-rosa:hover {
+    background-color: #fff;
+    color: #eca8b2;
+    border: 2px solid #eca8b2;
+}
+
+.diagnostico{
+    position: absolute;
+    left: 7%;
+    bottom: 20%;
+}
+
+.titulo-diagnostico{
+    font-weight: bolder;
+}
