@@ -664,6 +664,195 @@ function iniciarConsulta() {
                         }
                     })
 
+                } else {
+
+                    Swal.fire({
+                        title: '¿Tiene irritacion cutanea?',
+                        text: 'Responda SI o NO',
+                        imageUrl: '/assets/images/enfermedades/irritacion_cutanea.jpg',
+                        imageWidth: 400,
+                        imageHeight: 200,
+                        imageAlt: 'Custom image',
+                        showCancelButton: true,
+                        cancelButtonText: 'No',
+                        confirmButtonColor: '#eca8b2',
+                        confirmButtonText: 'Si',
+                        allowOutsideClick: false
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+
+                            Swal.fire({
+                                title: '¿Tiene picazon intensa de la piel?',
+                                text: 'Responda SI o NO',
+                                imageUrl: '/assets/images/enfermedades/picazon_piel.jpg',
+                                imageWidth: 400,
+                                imageHeight: 200,
+                                imageAlt: 'Custom image',
+                                showCancelButton: true,
+                                cancelButtonText: 'No',
+                                confirmButtonColor: '#eca8b2',
+                                confirmButtonText: 'Si',
+                                allowOutsideClick: false
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+
+                                    Swal.fire({
+                                        title: '¿Se rasca mucho la piel?',
+                                        text: 'Responda SI o NO',
+                                        imageUrl: '/assets/images/enfermedades/rasca_piel.jpg',
+                                        imageWidth: 400,
+                                        imageHeight: 200,
+                                        imageAlt: 'Custom image',
+                                        showCancelButton: true,
+                                        cancelButtonText: 'No',
+                                        confirmButtonColor: '#eca8b2',
+                                        confirmButtonText: 'Si',
+                                        allowOutsideClick: false
+                                    }).then((result) => {
+                                        if (result.isConfirmed) {
+
+                                            Swal.fire({
+                                                title: '¿Tiene costras en la piel?',
+                                                text: 'Responda SI o NO',
+                                                imageUrl: '/assets/images/enfermedades/costras_piel.jpg',
+                                                imageWidth: 400,
+                                                imageHeight: 200,
+                                                imageAlt: 'Custom image',
+                                                showCancelButton: true,
+                                                cancelButtonText: 'No',
+                                                confirmButtonColor: '#eca8b2',
+                                                confirmButtonText: 'Si',
+                                                allowOutsideClick: false
+                                            }).then((result) => {
+                                                if (result.isConfirmed) {
+
+                                                    Swal.fire({
+                                                        title: '¿Tiene llagas en la piel?',
+                                                        text: 'Responda SI o NO',
+                                                        imageUrl: '/assets/images/enfermedades/llagas_piel.jpg',
+                                                        imageWidth: 400,
+                                                        imageHeight: 200,
+                                                        imageAlt: 'Custom image',
+                                                        showCancelButton: true,
+                                                        cancelButtonText: 'No',
+                                                        confirmButtonColor: '#eca8b2',
+                                                        confirmButtonText: 'Si',
+                                                        allowOutsideClick: false
+                                                    }).then((result) => {
+                                                        if (result.isConfirmed) {
+
+                                                            Swal.fire({
+                                                                title: '¿Tiene granos y engrosamiento?',
+                                                                text: 'Responda SI o NO',
+                                                                imageUrl: '/assets/images/enfermedades/granos_engrosamiento.jpg',
+                                                                imageWidth: 400,
+                                                                imageHeight: 200,
+                                                                imageAlt: 'Custom image',
+                                                                showCancelButton: true,
+                                                                cancelButtonText: 'No',
+                                                                confirmButtonColor: '#eca8b2',
+                                                                confirmButtonText: 'Si',
+                                                                allowOutsideClick: false
+                                                            }).then((result) => {
+                                                                if (result.isConfirmed) {
+
+                                                                    Swal.fire({
+                                                                        title: '¿Tiene perdida de pelo?',
+                                                                        text: 'Responda SI o NO',
+                                                                        imageUrl: '/assets/images/enfermedades/perdida_pelo.jpg',
+                                                                        imageWidth: 400,
+                                                                        imageHeight: 200,
+                                                                        imageAlt: 'Custom image',
+                                                                        showCancelButton: true,
+                                                                        cancelButtonText: 'No',
+                                                                        confirmButtonColor: '#eca8b2',
+                                                                        confirmButtonText: 'Si',
+                                                                        allowOutsideClick: false
+                                                                    }).then((result) => {
+                                                                        if (result.isConfirmed) {
+
+                                                                            Swal.fire({
+                                                                                title: '¿Tiene mal olor en la piel?',
+                                                                                text: 'Responda SI o NO',
+                                                                                imageUrl: '/assets/images/enfermedades/mal_olor_piel.jpg',
+                                                                                imageWidth: 400,
+                                                                                imageHeight: 200,
+                                                                                imageAlt: 'Custom image',
+                                                                                showCancelButton: true,
+                                                                                cancelButtonText: 'No',
+                                                                                confirmButtonColor: '#eca8b2',
+                                                                                confirmButtonText: 'Si',
+                                                                                allowOutsideClick: false
+                                                                            }).then((result) => {
+                                                                                if (result.isConfirmed) {
+
+
+                                                                                    enfermedad = "Sarna";
+                                                                                    document.getElementById('diagnostico-enfermedad').innerHTML = enfermedad;
+
+                                                                                    Swal.fire({
+                                                                                        title: 'Diagnostico',
+                                                                                        html: `<p style="font-size:14px;">Respecto a los datos ingresados se diagnosticó: <b> <span> ${enfermedad}</span> </b> </p>`,
+                                                                                        imageUrl: '/assets/images/enfermedades/sarna.jpg',
+                                                                                        imageWidth: 400,
+                                                                                        imageHeight: 200,
+                                                                                        imageAlt: 'Custom image',
+                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                        confirmButtonText: 'Ver tratamiento',
+                                                                                        showCancelButton: true,
+                                                                                        cancelButtonText: 'Cerrar',
+                                                                                    }).then((result) => {
+                                                                                        if (result.isConfirmed) {
+
+                                                                                            Swal.fire({
+                                                                                                title: 'Tratamiento para: ' + enfermedad,
+                                                                                                imageUrl: '/assets/images/enfermedades/sarna.jpg',
+                                                                                                imageWidth: 400,
+                                                                                                imageHeight: 200,
+                                                                                                imageAlt: 'Custom image',
+                                                                                                html: `<p style="font-size:14px;"> El tratamiento para la sarna en perros que el especialista nos recetará puede
+                                                                                                componerse, principalmente, por un acaricida oral, tópico o inyectable, generalmente
+                                                                                                con ivermectina, selamectina, moxidectina y milbemicina oxima. Además, nos proporcionará
+                                                                                                analgésicos, antiinflamatorios, algún champú o polvos para baños con productos calmantes
+                                                                                                para la piel, con acaricidas y algún medicamento más específico para algún problema
+                                                                                                cutáneo secundario, como una posible infección por bacterias (bactericida o antibiótico)
+                                                                                                o por hongos (fungicida). </p> <a style="font-size:14px;" href="https://www.mascotasaludable.mx/posts/blog-post21.aspx#:~:text=TRATAMIENTO%20DE%20LA%20SARNA%20EN%20PERROS&text=El%20tratamiento%20para%20la%20sarna,selamectina%2C%20moxidectina%20y%20milbemicina%20oxima." target="_blanck">Click aquí para mayor información</a>`,
+                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                confirmButtonText: 'Aceptar',
+                                                                                                showCloseButton: true,
+                                                                                                showCancelButton: true,
+                                                                                                cancelButtonText: 'Cerrar',
+                                                                                                focusConfirm: false,
+
+                                                                                            })
+
+                                                                                        }
+                                                                                    });
+
+                                                                                }
+                                                                            })
+
+                                                                        }
+                                                                    })
+
+                                                                }
+                                                            })
+
+                                                        }
+                                                    })
+
+                                                }
+                                            })
+
+                                        }
+                                    })
+
+                                }
+                            })
+
+                        }
+                    })
+
                 }
             })
 
@@ -730,7 +919,7 @@ function iniciarConsulta() {
 //             imageWidth: 400,
 //             imageHeight: 200,
 //             imageAlt: 'Custom image',
-//             html: `<p style="font-size:14px;">En general el tratamiento para <b> ${enfermedad}</b>  debe eliminar la causa primaria, controlar las infecciones bacterianas y fúngicas oportunistas y mantener limpio y seco el conducto auditivo con diversas modalidades de tratamiento según la gravedad del cuadro; de sustancias limpiadoras y ceruminolíticas, a corticosteroides tópicos hasta la necesidad de limpiar el conducto bajo anestesia general en casos graves. Una vez realizada la limpieza se tratará el oído dependiendo de qué agente está actuando: acaricidas, antifúngicos o antibióticos. Además de la vía tópica se utilizará la parenteral y/u oral para favorecer la resolución del proce </p> `,
+//             html: `<p style="font-size:14px;">En general el tratamiento para <b> ${enfermedad}</b>  debe eliminar la causa primaria, controlar las infecciones bacterianas y fúngicas oportunistas y mantener limpio y seco el conducto auditivo con diversas modalidades de tratamiento según la gravedad del cuadro; de sustancias limpiadoras y ceruminolíticas, a corticosteroides tópicos hasta la necesidad de limpiar el conducto bajo anestesia general en casos graves. Una vez realizada la limpieza se tratará el oído dependiendo de qué agente está actuando: acaricidas, antifúngicos o antibióticos. Además de la vía tópica se utilizará la parenteral y/u oral para favorecer la resolución del proce </p> <a style="font-size:14px;" href="https://www.ortocanis.com/blog/el-moquillo-en-los-perros-y-su-tratamiento/#:~:text=No%20existe%20actualmente%20ning%C3%BAn%20tratamiento,para%20evitar%20propagar%20la%20enfermedad." target="_blanck">Click aquí para mayor información</a>`,
 //             confirmButtonColor: '#eca8b2',
 //             confirmButtonText: 'Aceptar',
 //             showCloseButton: true,
