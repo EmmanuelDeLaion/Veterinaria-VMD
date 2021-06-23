@@ -57,102 +57,102 @@ var imagenEnfermedadFiebreAftosa = "/assets/images/enfermedades/fiebreAftosa.jpg
 // *********************************************************************
 // *                      IMAGENES SINTOMAS                            *
 // *********************************************************************
-var mal_olor_oidos = '/assets/images/enfermedades/mal_olor_oidos.jpg';
-var rasca_orejas = '/assets/images/enfermedades/rasca_orejas.jpg';
-var cabeza_hacia_laterales = '/assets/images/enfermedades/cabeza_hacia_laterales.jpg';
-var liquido_oido = '/assets/images/enfermedades/.jpg';
-var dificultad_respiratoria = '/assets/images/enfermedades/dificultad_respiratoria.jpg';
-var tos = '/assets/images/enfermedades/tos.jpg';
-var estornudo = '/assets/images/enfermedades/estornudo.jpg';
-var secreciones = '/assets/images/enfermedades/secreciones.jpg';
-var fiebre = '/assets/images/enfermedades/fiebre.jpg';
-var diarrea = '/assets/images/enfermedades/diarrea.jpg';
-var tic_nervioso = '/assets/images/enfermedades/tic_nervioso.jpg';
-var flema = '/assets/images/enfermedades/flema.jpg';
-var fatiga = '/assets/images/enfermedades/fatiga.jpg';
-var somnolencia = '/assets/images/enfermedades/somnolencia.jpg';
-var vomito = '/assets/images/enfermedades/vomito.jpg';
-var decaimiento = '/assets/images/enfermedades/decaimiento.jpg';
-var perdida_apetito = '/assets/images/enfermedades/perdida_apetito.jpg';
-var perdida_peso = '/assets/images/enfermedades/perdida_peso.jpg';
-var irritacion_cutanea = '/assets/images/enfermedades/irritacion_cutanea.jpg';
-var picazon_piel = '/assets/images/enfermedades/picazon_piel.jpg';
-var rasca_piel = '/assets/images/enfermedades/rasca_piel.jpg';
-var costras_piel = '/assets/images/enfermedades/costras_piel.jpg';
-var llagas_piel = '/assets/images/enfermedades/llagas_piel.jpg';
-var granos_engrosamiento = '/assets/images/enfermedades/granos_engrosamiento.jpg';
-var perdida_pelo = '/assets/images/enfermedades/perdida_pelo.jpg';
-var mal_olor_piel = '/assets/images/enfermedades/mal_olor_piel.jpg';
-var cojera = '/assets/images/enfermedades/cojera.jpg';
-var rigidez = '/assets/images/enfermedades/rigidez.jpg';
-var dolor_articulaciones = '/assets/images/enfermedades/dolor_articulaciones.jpg';
-var inflamacion = '/assets/images/enfermedades/inflamacion.jpg';
-var anorexia = '/assets/images/enfermedades/anorexia.jpg';
-var depresion = '/assets/images/enfermedades/depresion.jpg';
-var deshidratacion = '/assets/images/enfermedades/deshidratacion.jpg';
-var hipotermia = '/assets/images/enfermedades/hipotermia.jpg';
-var hipoglucemia = '/assets/images/enfermedades/hipoglucemia.jpg';
-var dolor_abdominal = '/assets/images/enfermedades/dolor_abdominal.jpg';
-var debilidad = '/assets/images/enfermedades/debilidad.jpg';
-var lagrimeo = '/assets/images/enfermedades/lagrimeo.jpg';
-var enrojecimiento_esclerotica = '/assets/images/enfermedades/enrojecimiento_esclerotica.jpg';
-var lagaña = '/assets/images/enfermedades/lagaña.jpg';
-var dolor_ocular = '/assets/images/enfermedades/dolor_ocular.jpg';
-var inflamacion_parpados = '/assets/images/enfermedades/inflamacion_parpados.jpg';
-var ataques_violencia = '/assets/images/enfermedades/ataques_violencia.jpg';
-var fiebre_escalofrios = '/assets/images/enfermedades/fiebre_escalofrios.jpg';
-var sensibilidad_exagerada = '/assets/images/enfermedades/sensibilidad_exagerada.jpg';
-var cansancio_fisico = '/assets/images/enfermedades/cansancio_fisico.jpg';
-var dolor_muscular = '/assets/images/enfermedades/dolor_muscular.jpg';
-var hiper_actividad = '/assets/images/enfermedades/hiper_actividad.jpg';
-var ansiedad = '/assets/images/enfermedades/ansiedad.jpg';
-var espasmos_musculares = '/assets/images/enfermedades/espasmos_musculares.jpg';
-var hidrofobia = '/assets/images/enfermedades/hidrofobia.jpg';
-var convulsiones = '/assets/images/enfermedades/convulsiones.jpg';
-var encias_palidas = '/assets/images/enfermedades/encias_palidas.jpg';
-var heridas_piel = '/assets/images/enfermedades/heridas_piel.jpg';
-var anemia = '/assets/images/enfermedades/anemia.jpg';
-var baja_globulos_blancos = '/assets/images/enfermedades/baja_globulos_blancos.jpg';
-var infeccion_boca = '/assets/images/enfermedades/infeccion_boca.jpg';
-var patologias_respiratorias = '/assets/images/enfermedades/patologias_respiratorias.jpg';
-var infecciones_intestinales = '/assets/images/enfermedades/infecciones_intestinales.jpg';
-var infecciones_vacterianas = '/assets/images/enfermedades/infecciones_vacterianas.jpg';
-var aumento_volumen_estomago = '/assets/images/enfermedades/aumento_volumen_estomago.jpg';
-var acumulacion_liquido_abdomen = '/assets/images/enfermedades/acumulacion_liquido_abdomen.jpg';
-var dolor_orinar = '/assets/images/enfermedades/dolor_orinar.jpg';
-var sed = '/assets/images/enfermedades/sed.jpg';
-var ausencia_miccion = '/assets/images/enfermedades/ausencia_miccion.jpg';
-var lame_zona_urinaria = '/assets/images/enfermedades/lame_zona_urinaria.jpg';
-var letargico = '/assets/images/enfermedades/letargico.jpg';
-var postura_encorbada = '/assets/images/enfermedades/postura_encorbada.jpg';
-var liquido_blanco = '/assets/images/enfermedades/liquido_blanco.jpg';
-var estornudos = '/assets/images/enfermedades/estornudos.jpg';
-var dificultad_respiratoria = '/assets/images/enfermedades/dificultad_respiratoria.jpg';
-var nariz_humeda = '/assets/images/enfermedades/nariz_humeda.jpg';
-var congestion_nasal = '/assets/images/enfermedades/congestion_nasal.jpg';
-var bebe_mucha_agua = '/assets/images/enfermedades/bebe_mucha_agua.jpg';
-var cuerpo_tembloroso = '/assets/images/enfermedades/cuerpo_tembloroso.jpg';
-var duerme_mucho = '/assets/images/enfermedades/duerme_mucho.jpg';
-var picores_intensos = '/assets/images/enfermedades/picores_intensos.jpg';
-var piel_inflamada = '/assets/images/enfermedades/piel_inflamada.jpg';
-var piel_enrojecida = '/assets/images/enfermedades/piel_enrojecida.jpg';
-var problemas_comportamiento = '/assets/images/enfermedades/problemas_comportamiento.jpg';
-var rascado_excesivo = '/assets/images/enfermedades/rascado_excesivo.jpg';
-var infeccion_piel = '/assets/images/enfermedades/infeccion_piel.jpg';
-var piel_seca = '/assets/images/enfermedades/piel_seca.jpg';
-var piel_escamosa = '/assets/images/enfermedades/piel_escamosa.jpg';
-var sangrado_miembro_reproductor = '/assets/images/enfermedades/sangrado_miembro_reproductor.jpg';
-var utero_pus = '/assets/images/enfermedades/utero_pus.jpg';
-var secreta_liquido_amarillento = 'secreta_liquido_amarillento.jpg';
-var secreta_liquido_espeso = '/assets/images/enfermedades/secreta_liquido_espeso.jpg';
-var tos_seca = '/assets/images/enfermedades/tos_seca.jpg';
-var fiebre_fluctuante = '/assets/images/enfermedades/fiebre_fluctuante.jpg';
-var aborto_espontaneo = '/assets/images/enfermedades/aborto_espontaneo.jpg';
-var escalofrios = '/assets/images/enfermedades/escalofrios.jpg';
-var hipertermia = '/assets/images/enfermedades/hipertermia.jpg';
-var vesiculas_voca = '/assets/images/enfermedades/vesiculas_voca.jpg';
-var rodetes_pezuñas = '/assets/images/enfermedades/rodetes_pezuñas.jpg';
-var rompimiento_vesicula = '/assets/images/enfermedades/rompimiento_vesicula.jpg';
+var imagenMal_olor_oidos = '/assets/images/enfermedades/mal_olor_oidos.jpg';
+var imagenRasca_orejas = '/assets/images/enfermedades/rasca_orejas.jpg';
+var imagenCabeza_hacia_laterales = '/assets/images/enfermedades/cabeza_hacia_laterales.jpg';
+var imagenLiquido_oido = '/assets/images/enfermedades/liquido_oido.jpg';
+var imagenDificultad_respiratoria = '/assets/images/enfermedades/dificultad_respiratoria.jpg';
+var imagenTos = '/assets/images/enfermedades/tos.jpg';
+var imagenEstornudo = '/assets/images/enfermedades/estornudo.jpg';
+var imagenSecreciones = '/assets/images/enfermedades/secreciones.jpg';
+var imagenFiebre = '/assets/images/enfermedades/fiebre.jpg';
+var imagenDiarrea = '/assets/images/enfermedades/diarrea.jpg';
+var imagenTic_nervioso = '/assets/images/enfermedades/tic_nervioso.jpg';
+var imagenFlema = '/assets/images/enfermedades/flema.jpg';
+var imagenFatiga = '/assets/images/enfermedades/fatiga.jpg';
+var imagenSomnolencia = '/assets/images/enfermedades/somnolencia.jpg';
+var imagenVomito = '/assets/images/enfermedades/vomito.jpg';
+var imagenDecaimiento = '/assets/images/enfermedades/decaimiento.jpg';
+var imagenPerdida_apetito = '/assets/images/enfermedades/perdida_apetito.jpg';
+var imagenPerdida_peso = '/assets/images/enfermedades/perdida_peso.jpg';
+var imagenIrritacion_cutanea = '/assets/images/enfermedades/irritacion_cutanea.jpg';
+var imagenPicazon_piel = '/assets/images/enfermedades/picazon_piel.jpg';
+var imagenRasca_piel = '/assets/images/enfermedades/rasca_piel.jpg';
+var imagenCostras_piel = '/assets/images/enfermedades/costras_piel.jpg';
+var imagenLlagas_piel = '/assets/images/enfermedades/llagas_piel.jpg';
+var imagenGranos_engrosamiento = '/assets/images/enfermedades/granos_engrosamiento.jpg';
+var imagenPerdida_pelo = '/assets/images/enfermedades/perdida_pelo.jpg';
+var imagenMal_olor_piel = '/assets/images/enfermedades/mal_olor_piel.jpg';
+var imagenCojera = '/assets/images/enfermedades/cojera.jpg';
+var imagenRigidez = '/assets/images/enfermedades/rigidez.jpg';
+var imagenDolor_articulaciones = '/assets/images/enfermedades/dolor_articulaciones.jpg';
+var imagenInflamacion = '/assets/images/enfermedades/inflamacion.jpg';
+var imagenAnorexia = '/assets/images/enfermedades/anorexia.jpg';
+var imagenDepresion = '/assets/images/enfermedades/depresion.jpg';
+var imagenDeshidratacion = '/assets/images/enfermedades/deshidratacion.jpg';
+var imagenHipotermia = '/assets/images/enfermedades/hipotermia.jpg';
+var imagenHipoglucemia = '/assets/images/enfermedades/hipoglucemia.jpg';
+var imagenDolor_abdominal = '/assets/images/enfermedades/dolor_abdominal.jpg';
+var imagenDebilidad = '/assets/images/enfermedades/debilidad.jpg';
+var imagenLagrimeo = '/assets/images/enfermedades/lagrimeo.jpg';
+var imagenEnrojecimiento_esclerotica = '/assets/images/enfermedades/enrojecimiento_esclerotica.jpg';
+var imagenLagaña = '/assets/images/enfermedades/lagaña.jpg';
+var imagenDolor_ocular = '/assets/images/enfermedades/dolor_ocular.jpg';
+var imagenInflamacion_parpados = '/assets/images/enfermedades/inflamacion_parpados.jpg';
+var imagenAtaques_violencia = '/assets/images/enfermedades/ataques_violencia.jpg';
+var imagenFiebre_escalofrios = '/assets/images/enfermedades/fiebre_escalofrios.jpg';
+var imagenSensibilidad_exagerada = '/assets/images/enfermedades/sensibilidad_exagerada.jpg';
+var imagenCansancio_fisico = '/assets/images/enfermedades/cansancio_fisico.jpg';
+var imagenDolor_muscular = '/assets/images/enfermedades/dolor_muscular.jpg';
+var imagenHiper_actividad = '/assets/images/enfermedades/hiper_actividad.jpg';
+var imagenAnsiedad = '/assets/images/enfermedades/ansiedad.jpg';
+var imagenEspasmos_musculares = '/assets/images/enfermedades/espasmos_musculares.jpg';
+var imagenHidrofobia = '/assets/images/enfermedades/hidrofobia.jpg';
+var imagenConvulsiones = '/assets/images/enfermedades/convulsiones.jpg';
+var imagenEncias_palidas = '/assets/images/enfermedades/encias_palidas.jpg';
+var imagenHeridas_piel = '/assets/images/enfermedades/heridas_piel.jpg';
+var imagenAnemia = '/assets/images/enfermedades/anemia.jpg';
+var imagenBaja_globulos_blancos = '/assets/images/enfermedades/baja_globulos_blancos.jpg';
+var imagenInfeccion_boca = '/assets/images/enfermedades/infeccion_boca.jpg';
+var imagenPatologias_respiratorias = '/assets/images/enfermedades/patologias_respiratorias.jpg';
+var imagenInfecciones_intestinales = '/assets/images/enfermedades/infecciones_intestinales.jpg';
+var imagenInfecciones_vacterianas = '/assets/images/enfermedades/infecciones_vacterianas.jpg';
+var imagenAumento_volumen_estomago = '/assets/images/enfermedades/aumento_volumen_estomago.jpg';
+var imagenAcumulacion_liquido_abdomen = '/assets/images/enfermedades/acumulacion_liquido_abdomen.jpg';
+var imagenDolor_orinar = '/assets/images/enfermedades/dolor_orinar.jpg';
+var imagenSed = '/assets/images/enfermedades/sed.jpg';
+var imagenAusencia_miccion = '/assets/images/enfermedades/ausencia_miccion.jpg';
+var imagenLame_zona_urinaria = '/assets/images/enfermedades/lame_zona_urinaria.jpg';
+var imagenLetargico = '/assets/images/enfermedades/letargico.jpg';
+var imagenPostura_encorbada = '/assets/images/enfermedades/postura_encorbada.jpg';
+var imagenLiquido_blanco = '/assets/images/enfermedades/liquido_blanco.jpg';
+var imagenEstornudos = '/assets/images/enfermedades/estornudos.jpg';
+var imagenDificultad_respiratoria = '/assets/images/enfermedades/dificultad_respiratoria.jpg';
+var imagenNariz_humeda = '/assets/images/enfermedades/nariz_humeda.jpg';
+var imagenCongestion_nasal = '/assets/images/enfermedades/congestion_nasal.jpg';
+var imagenBebe_mucha_agua = '/assets/images/enfermedades/bebe_mucha_agua.jpg';
+var imagenCuerpo_tembloroso = '/assets/images/enfermedades/cuerpo_tembloroso.jpg';
+var imagenDuerme_mucho = '/assets/images/enfermedades/duerme_mucho.jpg';
+var imagenPicores_intensos = '/assets/images/enfermedades/picores_intensos.jpg';
+var imagenPiel_inflamada = '/assets/images/enfermedades/piel_inflamada.jpg';
+var imagenPiel_enrojecida = '/assets/images/enfermedades/piel_enrojecida.jpg';
+var imagenProblemas_comportamiento = '/assets/images/enfermedades/problemas_comportamiento.jpg';
+var imagenRascado_excesivo = '/assets/images/enfermedades/rascado_excesivo.jpg';
+var imagenInfeccion_piel = '/assets/images/enfermedades/infeccion_piel.jpg';
+var imagenPiel_seca = '/assets/images/enfermedades/piel_seca.jpg';
+var imagenPiel_escamosa = '/assets/images/enfermedades/piel_escamosa.jpg';
+var imagenSangrado_miembro_reproductor = '/assets/images/enfermedades/sangrado_miembro_reproductor.jpg';
+var imagenUtero_pus = '/assets/images/enfermedades/utero_pus.jpg';
+var imagenSecreta_liquido_amarillento = 'secreta_liquido_amarillento.jpg';
+var imagenSecreta_liquido_espeso = '/assets/images/enfermedades/secreta_liquido_espeso.jpg';
+var imagenTos_seca = '/assets/images/enfermedades/tos_seca.jpg';
+var imagenFiebre_fluctuante = '/assets/images/enfermedades/fiebre_fluctuante.jpg';
+var imagenAborto_espontaneo = '/assets/images/enfermedades/aborto_espontaneo.jpg';
+var imagenEscalofrios = '/assets/images/enfermedades/escalofrios.jpg';
+var imagenHipertermia = '/assets/images/enfermedades/hipertermia.jpg';
+var imagenVesiculas_voca = '/assets/images/enfermedades/vesiculas_voca.jpg';
+var imagenRodetes_pezuñas = '/assets/images/enfermedades/rodetes_pezuñas.jpg';
+var imagenRompimiento_vesicula = '/assets/images/enfermedades/rompimiento_vesicula.jpg';
 
 
 // *********************************************************************
@@ -394,11 +394,13 @@ Septiembre del 2007 © 2010 page 6 of 6 para la notificación y las pruebas de d
 enfermedad. </p> `;
 
 
+
+
 function iniciarConsulta() {
     Swal.fire({
         title: '¿El animal tiene mal olor en los oidos?',
         text: 'Responda SI o NO',
-        imageUrl: '/assets/images/enfermedades/mal_olor_oidos.jpg',
+        imageUrl: imagenMal_olor_oidos,
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: 'Custom image',
@@ -413,7 +415,7 @@ function iniciarConsulta() {
             Swal.fire({
                 title: '¿Se rasca mucho las orejas?',
                 text: 'Responda SI o NO',
-                imageUrl: '/assets/images/enfermedades/rasca_orejas.jpg',
+                imageUrl: imagenRasca_orejas,
                 imageWidth: 400,
                 imageHeight: 200,
                 imageAlt: 'Custom image',
@@ -428,7 +430,7 @@ function iniciarConsulta() {
                     Swal.fire({
                         title: '¿Mueve la cabeza hacia los laterales?',
                         text: 'Responda SI o NO',
-                        imageUrl: '/assets/images/enfermedades/cabeza_hacia_laterales.jpg',
+                        imageUrl: imagenCabeza_hacia_laterales,
                         imageWidth: 400,
                         imageHeight: 200,
                         imageAlt: 'Custom image',
@@ -443,7 +445,7 @@ function iniciarConsulta() {
                             Swal.fire({
                                 title: '¿Sangra liquido amarillo por el oido?',
                                 text: 'Responda SI o NO',
-                                imageUrl: '/assets/images/enfermedades/liquido_oido.jpg',
+                                imageUrl: imagenLiquido_oido,
                                 imageWidth: 400,
                                 imageHeight: 200,
                                 imageAlt: 'Custom image',
@@ -502,7 +504,7 @@ function iniciarConsulta() {
             Swal.fire({
                 title: '¿Tiene dificultad respiratoria?',
                 text: 'Responda SI o NO',
-                imageUrl: '/assets/images/enfermedades/dificultad_respiratoria.jpg',
+                imageUrl: imagenDificultad_respiratoria,
                 imageWidth: 400,
                 imageHeight: 200,
                 imageAlt: 'Custom image',
@@ -517,7 +519,7 @@ function iniciarConsulta() {
                     Swal.fire({
                         title: '¿Tiene tos?',
                         text: 'Responda SI o NO',
-                        imageUrl: '/assets/images/enfermedades/tos.jpg',
+                        imageUrl: imagenTos,
                         imageWidth: 400,
                         imageHeight: 200,
                         imageAlt: 'Custom image',
@@ -532,7 +534,7 @@ function iniciarConsulta() {
                             Swal.fire({
                                 title: '¿Estornuda?',
                                 text: 'Responda SI o NO',
-                                imageUrl: '/assets/images/enfermedades/estornudo.jpg',
+                                imageUrl: imagenEstornudo,
                                 imageWidth: 400,
                                 imageHeight: 200,
                                 imageAlt: 'Custom image',
@@ -547,7 +549,7 @@ function iniciarConsulta() {
                                     Swal.fire({
                                         title: '¿Tiene secreciones?',
                                         text: 'Responda SI o NO',
-                                        imageUrl: '/assets/images/enfermedades/secreciones.jpg',
+                                        imageUrl: imagenSecreciones,
                                         imageWidth: 400,
                                         imageHeight: 200,
                                         imageAlt: 'Custom image',
@@ -562,7 +564,7 @@ function iniciarConsulta() {
                                             Swal.fire({
                                                 title: '¿Tiene fiebre?',
                                                 text: 'Responda SI o NO',
-                                                imageUrl: '/assets/images/enfermedades/fiebre.jpg',
+                                                imageUrl: imagenFiebre,
                                                 imageWidth: 400,
                                                 imageHeight: 200,
                                                 imageAlt: 'Custom image',
@@ -577,7 +579,7 @@ function iniciarConsulta() {
                                                     Swal.fire({
                                                         title: '¿Tiene diarrea?',
                                                         text: 'Responda SI o NO',
-                                                        imageUrl: '/assets/images/enfermedades/diarrea.jpg',
+                                                        imageUrl: imagenDiarrea,
                                                         imageWidth: 400,
                                                         imageHeight: 200,
                                                         imageAlt: 'Custom image',
@@ -592,7 +594,7 @@ function iniciarConsulta() {
                                                             Swal.fire({
                                                                 title: '¿Tiene tics nerviosos?',
                                                                 text: 'Responda SI o NO',
-                                                                imageUrl: '/assets/images/enfermedades/tic_nervioso.jpg',
+                                                                imageUrl: imagenTic_nervioso,
                                                                 imageWidth: 400,
                                                                 imageHeight: 200,
                                                                 imageAlt: 'Custom image',
@@ -607,7 +609,7 @@ function iniciarConsulta() {
                                                                     Swal.fire({
                                                                         title: '¿Tiene flema?',
                                                                         text: 'Responda SI o NO',
-                                                                        imageUrl: '/assets/images/enfermedades/flema.jpg',
+                                                                        imageUrl: imagenFlema,
                                                                         imageWidth: 400,
                                                                         imageHeight: 200,
                                                                         imageAlt: 'Custom image',
@@ -622,7 +624,7 @@ function iniciarConsulta() {
                                                                             Swal.fire({
                                                                                 title: '¿Tiene fatiga?',
                                                                                 text: 'Responda SI o NO',
-                                                                                imageUrl: '/assets/images/enfermedades/fatiga.jpg',
+                                                                                imageUrl: imagenFatiga,
                                                                                 imageWidth: 400,
                                                                                 imageHeight: 200,
                                                                                 imageAlt: 'Custom image',
@@ -637,7 +639,7 @@ function iniciarConsulta() {
                                                                                     Swal.fire({
                                                                                         title: '¿Tiene somnolencia?',
                                                                                         text: 'Responda SI o NO',
-                                                                                        imageUrl: '/assets/images/enfermedades/somnolencia.jpg',
+                                                                                        imageUrl: imagenSomnolencia,
                                                                                         imageWidth: 400,
                                                                                         imageHeight: 200,
                                                                                         imageAlt: 'Custom image',
@@ -652,7 +654,7 @@ function iniciarConsulta() {
                                                                                             Swal.fire({
                                                                                                 title: '¿Tiene vomito?',
                                                                                                 text: 'Responda SI o NO',
-                                                                                                imageUrl: '/assets/images/enfermedades/vomito.jpg',
+                                                                                                imageUrl: imagenVomito,
                                                                                                 imageWidth: 400,
                                                                                                 imageHeight: 200,
                                                                                                 imageAlt: 'Custom image',
@@ -667,7 +669,7 @@ function iniciarConsulta() {
                                                                                                     Swal.fire({
                                                                                                         title: '¿Tiene decaimiento?',
                                                                                                         text: 'Responda SI o NO',
-                                                                                                        imageUrl: '/assets/images/enfermedades/decaimiento.jpg',
+                                                                                                        imageUrl: imagenDecaimiento,
                                                                                                         imageWidth: 400,
                                                                                                         imageHeight: 200,
                                                                                                         imageAlt: 'Custom image',
@@ -682,7 +684,7 @@ function iniciarConsulta() {
                                                                                                             Swal.fire({
                                                                                                                 title: '¿Tiene perdida de apetito?',
                                                                                                                 text: 'Responda SI o NO',
-                                                                                                                imageUrl: '/assets/images/enfermedades/perdida_apetito.jpg',
+                                                                                                                imageUrl: imagenPerdida_apetito,
                                                                                                                 imageWidth: 400,
                                                                                                                 imageHeight: 200,
                                                                                                                 imageAlt: 'Custom image',
@@ -697,7 +699,7 @@ function iniciarConsulta() {
                                                                                                                     Swal.fire({
                                                                                                                         title: '¿Tiene perdida de peso?',
                                                                                                                         text: 'Responda SI o NO',
-                                                                                                                        imageUrl: '/assets/images/enfermedades/perdida_peso.jpg',
+                                                                                                                        imageUrl: imagenPerdida_peso,
                                                                                                                         imageWidth: 400,
                                                                                                                         imageHeight: 200,
                                                                                                                         imageAlt: 'Custom image',
@@ -727,7 +729,7 @@ function iniciarConsulta() {
 
                                                                                                                                     Swal.fire({
                                                                                                                                         title: 'Tratamiento para: ' + enfermedadMoquillo,
-                                                                                                                                        imageUrl: '/assets/images/enfermedades/moquillo.jpg',
+                                                                                                                                        imageUrl: imagenEnfermedadMoquillo,
                                                                                                                                         imageWidth: 400,
                                                                                                                                         imageHeight: 200,
                                                                                                                                         imageAlt: 'Custom image',
@@ -788,7 +790,7 @@ function iniciarConsulta() {
                     Swal.fire({
                         title: '¿Tiene irritacion cutanea?',
                         text: 'Responda SI o NO',
-                        imageUrl: '/assets/images/enfermedades/irritacion_cutanea.jpg',
+                        imageUrl: imagenIrritacion_cutanea,
                         imageWidth: 400,
                         imageHeight: 200,
                         imageAlt: 'Custom image',
@@ -803,7 +805,7 @@ function iniciarConsulta() {
                             Swal.fire({
                                 title: '¿Tiene picazon intensa de la piel?',
                                 text: 'Responda SI o NO',
-                                imageUrl: '/assets/images/enfermedades/picazon_piel.jpg',
+                                imageUrl: imagenPicazon_piel,
                                 imageWidth: 400,
                                 imageHeight: 200,
                                 imageAlt: 'Custom image',
@@ -818,7 +820,7 @@ function iniciarConsulta() {
                                     Swal.fire({
                                         title: '¿Se rasca mucho la piel?',
                                         text: 'Responda SI o NO',
-                                        imageUrl: '/assets/images/enfermedades/rasca_piel.jpg',
+                                        imageUrl: imagenRasca_piel,
                                         imageWidth: 400,
                                         imageHeight: 200,
                                         imageAlt: 'Custom image',
@@ -833,7 +835,7 @@ function iniciarConsulta() {
                                             Swal.fire({
                                                 title: '¿Tiene costras en la piel?',
                                                 text: 'Responda SI o NO',
-                                                imageUrl: '/assets/images/enfermedades/costras_piel.jpg',
+                                                imageUrl: imagenCostras_piel,
                                                 imageWidth: 400,
                                                 imageHeight: 200,
                                                 imageAlt: 'Custom image',
@@ -848,7 +850,7 @@ function iniciarConsulta() {
                                                     Swal.fire({
                                                         title: '¿Tiene llagas en la piel?',
                                                         text: 'Responda SI o NO',
-                                                        imageUrl: '/assets/images/enfermedades/llagas_piel.jpg',
+                                                        imageUrl: imagenLlagas_piel,
                                                         imageWidth: 400,
                                                         imageHeight: 200,
                                                         imageAlt: 'Custom image',
@@ -863,7 +865,7 @@ function iniciarConsulta() {
                                                             Swal.fire({
                                                                 title: '¿Tiene granos y engrosamiento?',
                                                                 text: 'Responda SI o NO',
-                                                                imageUrl: '/assets/images/enfermedades/granos_engrosamiento.jpg',
+                                                                imageUrl: imagenGranos_engrosamiento,
                                                                 imageWidth: 400,
                                                                 imageHeight: 200,
                                                                 imageAlt: 'Custom image',
@@ -878,7 +880,7 @@ function iniciarConsulta() {
                                                                     Swal.fire({
                                                                         title: '¿Tiene perdida de pelo?',
                                                                         text: 'Responda SI o NO',
-                                                                        imageUrl: '/assets/images/enfermedades/perdida_pelo.jpg',
+                                                                        imageUrl: imagenPerdida_pelo,
                                                                         imageWidth: 400,
                                                                         imageHeight: 200,
                                                                         imageAlt: 'Custom image',
@@ -893,7 +895,7 @@ function iniciarConsulta() {
                                                                             Swal.fire({
                                                                                 title: '¿Tiene mal olor en la piel?',
                                                                                 text: 'Responda SI o NO',
-                                                                                imageUrl: '/assets/images/enfermedades/mal_olor_piel.jpg',
+                                                                                imageUrl: imagenMal_olor_piel,
                                                                                 imageWidth: 400,
                                                                                 imageHeight: 200,
                                                                                 imageAlt: 'Custom image',
@@ -911,7 +913,7 @@ function iniciarConsulta() {
                                                                                     Swal.fire({
                                                                                         title: 'Diagnostico',
                                                                                         html: `<p style="font-size:14px;">Respecto a los datos ingresados se diagnosticó: <b> <span> ${enfermedadSarna}</span> </b> </p>`,
-                                                                                        imageUrl: '/assets/images/enfermedades/sarna.jpg',
+                                                                                        imageUrl: imagenEnfermedadSarna,
                                                                                         imageWidth: 400,
                                                                                         imageHeight: 200,
                                                                                         imageAlt: 'Custom image',
@@ -946,6 +948,133 @@ function iniciarConsulta() {
 
                                                                         }
                                                                     })
+
+                                                                }
+                                                            })
+
+                                                        }
+                                                    })
+
+                                                }
+                                            })
+
+                                        }
+                                    })
+
+                                }
+                            })
+
+                        } else {
+
+                            Swal.fire({
+                                title: '¿Tiene vomito?',
+                                text: 'Responda SI o NO',
+                                imageUrl: imagenVomito,
+                                imageWidth: 400,
+                                imageHeight: 200,
+                                imageAlt: 'Custom image',
+                                showCancelButton: true,
+                                cancelButtonText: 'No',
+                                confirmButtonColor: '#eca8b2',
+                                confirmButtonText: 'Si',
+                                allowOutsideClick: false
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+
+                                    Swal.fire({
+                                        title: '¿Tiene diarrea?',
+                                        text: 'Responda SI o NO',
+                                        imageUrl: imagenDiarrea,
+                                        imageWidth: 400,
+                                        imageHeight: 200,
+                                        imageAlt: 'Custom image',
+                                        showCancelButton: true,
+                                        cancelButtonText: 'No',
+                                        confirmButtonColor: '#eca8b2',
+                                        confirmButtonText: 'Si',
+                                        allowOutsideClick: false
+                                    }).then((result) => {
+                                        if (result.isConfirmed) {
+
+                                            Swal.fire({
+                                                title: '¿Tiene perdida de apetito?',
+                                                text: 'Responda SI o NO',
+                                                imageUrl: imagenPerdida_apetito,
+                                                imageWidth: 400,
+                                                imageHeight: 200,
+                                                imageAlt: 'Custom image',
+                                                showCancelButton: true,
+                                                cancelButtonText: 'No',
+                                                confirmButtonColor: '#eca8b2',
+                                                confirmButtonText: 'Si',
+                                                allowOutsideClick: false
+                                            }).then((result) => {
+                                                if (result.isConfirmed) {
+
+                                                    Swal.fire({
+                                                        title: '¿Tiene perdida de peso?',
+                                                        text: 'Responda SI o NO',
+                                                        imageUrl: imagenPerdida_peso,
+                                                        imageWidth: 400,
+                                                        imageHeight: 200,
+                                                        imageAlt: 'Custom image',
+                                                        showCancelButton: true,
+                                                        cancelButtonText: 'No',
+                                                        confirmButtonColor: '#eca8b2',
+                                                        confirmButtonText: 'Si',
+                                                        allowOutsideClick: false
+                                                    }).then((result) => {
+                                                        if (result.isConfirmed) {
+
+                                                            Swal.fire({
+                                                                title: '¿Tiene decaimento?',
+                                                                text: 'Responda SI o NO',
+                                                                imageUrl: imagenDecaimiento,
+                                                                imageWidth: 400,
+                                                                imageHeight: 200,
+                                                                imageAlt: 'Custom image',
+                                                                showCancelButton: true,
+                                                                cancelButtonText: 'No',
+                                                                confirmButtonColor: '#eca8b2',
+                                                                confirmButtonText: 'Si',
+                                                                allowOutsideClick: false
+                                                            }).then((result) => {
+                                                                if (result.isConfirmed) {
+
+                                                                    document.getElementById('diagnostico-enfermedad').innerHTML = enfermedadParasitosInternos;
+
+                                                                    Swal.fire({
+                                                                        title: 'Diagnostico',
+                                                                        html: `<p style="font-size:14px;">Respecto a los datos ingresados se diagnosticó: <b> <span> ${enfermedadParasitosInternos}</span> </b> </p>`,
+                                                                        imageUrl: imagenEnfermedadParasitosInternos,
+                                                                        imageWidth: 400,
+                                                                        imageHeight: 200,
+                                                                        imageAlt: 'Custom image',
+                                                                        confirmButtonColor: '#eca8b2',
+                                                                        confirmButtonText: 'Ver tratamiento',
+                                                                        showCancelButton: true,
+                                                                        cancelButtonText: 'Cerrar',
+                                                                    }).then((result) => {
+                                                                        if (result.isConfirmed) {
+
+                                                                            Swal.fire({
+                                                                                title: 'Tratamiento para: ' + enfermedadParasitosInternos,
+                                                                                imageUrl: imagenEnfermedadParasitosInternos,
+                                                                                imageWidth: 400,
+                                                                                imageHeight: 200,
+                                                                                imageAlt: 'Custom image',
+                                                                                html: tratamientoParasitosInternos,
+                                                                                confirmButtonColor: '#eca8b2',
+                                                                                confirmButtonText: 'Aceptar',
+                                                                                showCloseButton: true,
+                                                                                showCancelButton: true,
+                                                                                cancelButtonText: 'Cerrar',
+                                                                                focusConfirm: false,
+
+                                                                            })
+
+                                                                        }
+                                                                    });
 
                                                                 }
                                                             })
@@ -1008,13 +1137,13 @@ function iniciarConsulta() {
 
 
 
-// enfermedad = "Otitis";
-// document.getElementById('diagnostico-enfermedad').innerHTML = enfermedad;
+
+// document.getElementById('diagnostico-enfermedad').innerHTML = enfermedadParasitosInternos;
 
 // Swal.fire({
 //     title: 'Diagnostico',
-//     html: `<p style="font-size:14px;">Respecto a los datos ingresados se diagnosticó: <b> <span> ${enfermedad}</span> </b> </p>`,
-//     imageUrl: '/assets/images/enfermedades/otitis.jpg',
+//     html: `<p style="font-size:14px;">Respecto a los datos ingresados se diagnosticó: <b> <span> ${enfermedadParasitosInternos}</span> </b> </p>`,
+//     imageUrl: imagenEnfermedadParasitosInternos,
 //     imageWidth: 400,
 //     imageHeight: 200,
 //     imageAlt: 'Custom image',
@@ -1026,12 +1155,12 @@ function iniciarConsulta() {
 //     if (result.isConfirmed) {
 
 //         Swal.fire({
-//             title: 'Tratamiento para: ' + enfermedad,
-//             imageUrl: '/assets/images/enfermedades/otitis.jpg',
+//             title: 'Tratamiento para: ' + enfermedadParasitosInternos,
+//             imageUrl: imagenEnfermedadParasitosInternos,
 //             imageWidth: 400,
 //             imageHeight: 200,
 //             imageAlt: 'Custom image',
-//             html: `<p style="font-size:14px;">En general el tratamiento para <b> ${enfermedad}</b>  debe eliminar la causa primaria, controlar las infecciones bacterianas y fúngicas oportunistas y mantener limpio y seco el conducto auditivo con diversas modalidades de tratamiento según la gravedad del cuadro; de sustancias limpiadoras y ceruminolíticas, a corticosteroides tópicos hasta la necesidad de limpiar el conducto bajo anestesia general en casos graves. Una vez realizada la limpieza se tratará el oído dependiendo de qué agente está actuando: acaricidas, antifúngicos o antibióticos. Además de la vía tópica se utilizará la parenteral y/u oral para favorecer la resolución del proce </p> <a style="font-size:14px;" href="https://www.ortocanis.com/blog/el-moquillo-en-los-perros-y-su-tratamiento/#:~:text=No%20existe%20actualmente%20ning%C3%BAn%20tratamiento,para%20evitar%20propagar%20la%20enfermedad." target="_blanck">Click aquí para mayor información</a>`,
+//             html: tratamientoParasitosInternos,
 //             confirmButtonColor: '#eca8b2',
 //             confirmButtonText: 'Aceptar',
 //             showCloseButton: true,
