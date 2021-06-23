@@ -263,6 +263,415 @@
 
 
 
+var enfermedad;
+
+function iniciarConsulta() {
+    Swal.fire({
+        title: '¿El animal tiene mal olor en los oidos?',
+        text: 'Responda SI o NO',
+        imageUrl: '/assets/images/enfermedades/mal_olor_oidos.jpg',
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+        showCancelButton: true,
+        cancelButtonText: 'No',
+        confirmButtonColor: '#eca8b2',
+        confirmButtonText: 'Si',
+        allowOutsideClick: false
+    }).then((result) => {
+        if (result.isConfirmed) {
+
+            Swal.fire({
+                title: '¿Se rasca mucho las orejas?',
+                text: 'Responda SI o NO',
+                imageUrl: '/assets/images/enfermedades/rasca_orejas.jpg',
+                imageWidth: 400,
+                imageHeight: 200,
+                imageAlt: 'Custom image',
+                showCancelButton: true,
+                cancelButtonText: 'No',
+                confirmButtonColor: '#eca8b2',
+                confirmButtonText: 'Si',
+                allowOutsideClick: false
+            }).then((result) => {
+                if (result.isConfirmed) {
+
+                    Swal.fire({
+                        title: '¿Mueve la cabeza hacia los laterales?',
+                        text: 'Responda SI o NO',
+                        imageUrl: '/assets/images/enfermedades/cabeza_hacia_laterales.jpg',
+                        imageWidth: 400,
+                        imageHeight: 200,
+                        imageAlt: 'Custom image',
+                        showCancelButton: true,
+                        cancelButtonText: 'No',
+                        confirmButtonColor: '#eca8b2',
+                        confirmButtonText: 'Si',
+                        allowOutsideClick: false
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+
+                            Swal.fire({
+                                title: '¿Sangra liquido amarillo por el oido?',
+                                text: 'Responda SI o NO',
+                                imageUrl: '/assets/images/enfermedades/liquido_oido.jpg',
+                                imageWidth: 400,
+                                imageHeight: 200,
+                                imageAlt: 'Custom image',
+                                showCancelButton: true,
+                                cancelButtonText: 'No',
+                                confirmButtonColor: '#eca8b2',
+                                confirmButtonText: 'Si',
+                                allowOutsideClick: false
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+
+                                    enfermedad = "Otitis";
+                                    document.getElementById('diagnostico-enfermedad').innerHTML = enfermedad;
+
+                                    Swal.fire({
+                                        title: 'Diagnostico',
+                                        html: `<p style="font-size:14px;">Respecto a los datos ingresados se diagnosticó: <b> <span> ${enfermedad}</span> </b> </p>`,
+                                        imageUrl: '/assets/images/enfermedades/otitis.jpg',
+                                        imageWidth: 400,
+                                        imageHeight: 200,
+                                        imageAlt: 'Custom image',
+                                        confirmButtonColor: '#eca8b2',
+                                        confirmButtonText: 'Ver tratamiento',
+                                        showCancelButton: true,
+                                        cancelButtonText: 'Cerrar',
+                                    }).then((result) => {
+                                        if (result.isConfirmed) {
+
+                                            Swal.fire({
+                                                title: 'Tratamiento para: ' + enfermedad,
+                                                imageUrl: '/assets/images/enfermedades/otitis.jpg',
+                                                imageWidth: 400,
+                                                imageHeight: 200,
+                                                imageAlt: 'Custom image',
+                                                html: `<p style="font-size:14px;">En general el tratamiento para <b> ${enfermedad}</b>  debe eliminar la causa primaria, controlar las infecciones bacterianas y fúngicas oportunistas y mantener limpio y seco el conducto auditivo con diversas modalidades de tratamiento según la gravedad del cuadro; de sustancias limpiadoras y ceruminolíticas, a corticosteroides tópicos hasta la necesidad de limpiar el conducto bajo anestesia general en casos graves. Una vez realizada la limpieza se tratará el oído dependiendo de qué agente está actuando: acaricidas, antifúngicos o antibióticos. Además de la vía tópica se utilizará la parenteral y/u oral para favorecer la resolución del proce </p> <a style="font-size:14px;" href="https://www.anicura.es/consejos-de-salud-para-mascotas/perro/la-otitis-en-los-perros/#:~:text=En%20caso%20de%20otitis%2C%20deber%C3%A1n,de%20bacterias%20y%2Fu%20hongos." target="_blanck">Click aquí para mayor información</a>`,
+                                                confirmButtonColor: '#eca8b2',
+                                                confirmButtonText: 'Aceptar',
+                                                showCloseButton: true,
+                                                showCancelButton: true,
+                                                cancelButtonText: 'Cerrar',
+                                                focusConfirm: false,
+
+                                            })
+
+                                        }
+                                    });
+
+                                }
+                            })
+
+                        }
+                    })
+
+                }
+            })
+        } else {
+
+            Swal.fire({
+                title: '¿Tiene dificultad respiratoria?',
+                text: 'Responda SI o NO',
+                imageUrl: '/assets/images/enfermedades/dificultad_respiratoria.jpg',
+                imageWidth: 400,
+                imageHeight: 200,
+                imageAlt: 'Custom image',
+                showCancelButton: true,
+                cancelButtonText: 'No',
+                confirmButtonColor: '#eca8b2',
+                confirmButtonText: 'Si',
+                allowOutsideClick: false
+            }).then((result) => {
+                if (result.isConfirmed) {
+
+                    Swal.fire({
+                        title: '¿Tiene tos?',
+                        text: 'Responda SI o NO',
+                        imageUrl: '/assets/images/enfermedades/tos.jpg',
+                        imageWidth: 400,
+                        imageHeight: 200,
+                        imageAlt: 'Custom image',
+                        showCancelButton: true,
+                        cancelButtonText: 'No',
+                        confirmButtonColor: '#eca8b2',
+                        confirmButtonText: 'Si',
+                        allowOutsideClick: false
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+
+                            Swal.fire({
+                                title: '¿Estornuda?',
+                                text: 'Responda SI o NO',
+                                imageUrl: '/assets/images/enfermedades/estornudo.jpg',
+                                imageWidth: 400,
+                                imageHeight: 200,
+                                imageAlt: 'Custom image',
+                                showCancelButton: true,
+                                cancelButtonText: 'No',
+                                confirmButtonColor: '#eca8b2',
+                                confirmButtonText: 'Si',
+                                allowOutsideClick: false
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+
+                                    Swal.fire({
+                                        title: '¿Tiene secreciones?',
+                                        text: 'Responda SI o NO',
+                                        imageUrl: '/assets/images/enfermedades/secreciones.jpg',
+                                        imageWidth: 400,
+                                        imageHeight: 200,
+                                        imageAlt: 'Custom image',
+                                        showCancelButton: true,
+                                        cancelButtonText: 'No',
+                                        confirmButtonColor: '#eca8b2',
+                                        confirmButtonText: 'Si',
+                                        allowOutsideClick: false
+                                    }).then((result) => {
+                                        if (result.isConfirmed) {
+
+                                            Swal.fire({
+                                                title: '¿Tiene fiebre?',
+                                                text: 'Responda SI o NO',
+                                                imageUrl: '/assets/images/enfermedades/fiebre.jpg',
+                                                imageWidth: 400,
+                                                imageHeight: 200,
+                                                imageAlt: 'Custom image',
+                                                showCancelButton: true,
+                                                cancelButtonText: 'No',
+                                                confirmButtonColor: '#eca8b2',
+                                                confirmButtonText: 'Si',
+                                                allowOutsideClick: false
+                                            }).then((result) => {
+                                                if (result.isConfirmed) {
+
+                                                    Swal.fire({
+                                                        title: '¿Tiene diarrea?',
+                                                        text: 'Responda SI o NO',
+                                                        imageUrl: '/assets/images/enfermedades/diarrea.jpg',
+                                                        imageWidth: 400,
+                                                        imageHeight: 200,
+                                                        imageAlt: 'Custom image',
+                                                        showCancelButton: true,
+                                                        cancelButtonText: 'No',
+                                                        confirmButtonColor: '#eca8b2',
+                                                        confirmButtonText: 'Si',
+                                                        allowOutsideClick: false
+                                                    }).then((result) => {
+                                                        if (result.isConfirmed) {
+
+                                                            Swal.fire({
+                                                                title: '¿Tiene tics nerviosos?',
+                                                                text: 'Responda SI o NO',
+                                                                imageUrl: '/assets/images/enfermedades/tic_nervioso.jpg',
+                                                                imageWidth: 400,
+                                                                imageHeight: 200,
+                                                                imageAlt: 'Custom image',
+                                                                showCancelButton: true,
+                                                                cancelButtonText: 'No',
+                                                                confirmButtonColor: '#eca8b2',
+                                                                confirmButtonText: 'Si',
+                                                                allowOutsideClick: false
+                                                            }).then((result) => {
+                                                                if (result.isConfirmed) {
+
+                                                                    Swal.fire({
+                                                                        title: '¿Tiene flema?',
+                                                                        text: 'Responda SI o NO',
+                                                                        imageUrl: '/assets/images/enfermedades/flema.jpg',
+                                                                        imageWidth: 400,
+                                                                        imageHeight: 200,
+                                                                        imageAlt: 'Custom image',
+                                                                        showCancelButton: true,
+                                                                        cancelButtonText: 'No',
+                                                                        confirmButtonColor: '#eca8b2',
+                                                                        confirmButtonText: 'Si',
+                                                                        allowOutsideClick: false
+                                                                    }).then((result) => {
+                                                                        if (result.isConfirmed) {
+
+                                                                            Swal.fire({
+                                                                                title: '¿Tiene fatiga?',
+                                                                                text: 'Responda SI o NO',
+                                                                                imageUrl: '/assets/images/enfermedades/fatiga.jpg',
+                                                                                imageWidth: 400,
+                                                                                imageHeight: 200,
+                                                                                imageAlt: 'Custom image',
+                                                                                showCancelButton: true,
+                                                                                cancelButtonText: 'No',
+                                                                                confirmButtonColor: '#eca8b2',
+                                                                                confirmButtonText: 'Si',
+                                                                                allowOutsideClick: false
+                                                                            }).then((result) => {
+                                                                                if (result.isConfirmed) {
+
+                                                                                    Swal.fire({
+                                                                                        title: '¿Tiene somnolencia?',
+                                                                                        text: 'Responda SI o NO',
+                                                                                        imageUrl: '/assets/images/enfermedades/somnolencia.jpg',
+                                                                                        imageWidth: 400,
+                                                                                        imageHeight: 200,
+                                                                                        imageAlt: 'Custom image',
+                                                                                        showCancelButton: true,
+                                                                                        cancelButtonText: 'No',
+                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                        confirmButtonText: 'Si',
+                                                                                        allowOutsideClick: false
+                                                                                    }).then((result) => {
+                                                                                        if (result.isConfirmed) {
+
+                                                                                            Swal.fire({
+                                                                                                title: '¿Tiene vomito?',
+                                                                                                text: 'Responda SI o NO',
+                                                                                                imageUrl: '/assets/images/enfermedades/vomito.jpg',
+                                                                                                imageWidth: 400,
+                                                                                                imageHeight: 200,
+                                                                                                imageAlt: 'Custom image',
+                                                                                                showCancelButton: true,
+                                                                                                cancelButtonText: 'No',
+                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                confirmButtonText: 'Si',
+                                                                                                allowOutsideClick: false
+                                                                                            }).then((result) => {
+                                                                                                if (result.isConfirmed) {
+
+                                                                                                    Swal.fire({
+                                                                                                        title: '¿Tiene decaimiento?',
+                                                                                                        text: 'Responda SI o NO',
+                                                                                                        imageUrl: '/assets/images/enfermedades/decaimiento.jpg',
+                                                                                                        imageWidth: 400,
+                                                                                                        imageHeight: 200,
+                                                                                                        imageAlt: 'Custom image',
+                                                                                                        showCancelButton: true,
+                                                                                                        cancelButtonText: 'No',
+                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                        confirmButtonText: 'Si',
+                                                                                                        allowOutsideClick: false
+                                                                                                    }).then((result) => {
+                                                                                                        if (result.isConfirmed) {
+
+                                                                                                            Swal.fire({
+                                                                                                                title: '¿Tiene perdida de apetito?',
+                                                                                                                text: 'Responda SI o NO',
+                                                                                                                imageUrl: '/assets/images/enfermedades/perdida_apetito.jpg',
+                                                                                                                imageWidth: 400,
+                                                                                                                imageHeight: 200,
+                                                                                                                imageAlt: 'Custom image',
+                                                                                                                showCancelButton: true,
+                                                                                                                cancelButtonText: 'No',
+                                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                                confirmButtonText: 'Si',
+                                                                                                                allowOutsideClick: false
+                                                                                                            }).then((result) => {
+                                                                                                                if (result.isConfirmed) {
+
+                                                                                                                    Swal.fire({
+                                                                                                                        title: '¿Tiene perdida de peso?',
+                                                                                                                        text: 'Responda SI o NO',
+                                                                                                                        imageUrl: '/assets/images/enfermedades/perdida_peso.jpg',
+                                                                                                                        imageWidth: 400,
+                                                                                                                        imageHeight: 200,
+                                                                                                                        imageAlt: 'Custom image',
+                                                                                                                        showCancelButton: true,
+                                                                                                                        cancelButtonText: 'No',
+                                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                                        confirmButtonText: 'Si',
+                                                                                                                        allowOutsideClick: false
+                                                                                                                    }).then((result) => {
+                                                                                                                        if (result.isConfirmed) {
+
+                                                                                                                            enfermedad = "Moquillo";
+                                                                                                                            document.getElementById('diagnostico-enfermedad').innerHTML = enfermedad;
+
+                                                                                                                            Swal.fire({
+                                                                                                                                title: 'Diagnostico',
+                                                                                                                                html: `<p style="font-size:14px;">Respecto a los datos ingresados se diagnosticó: <b> <span> ${enfermedad}</span> </b> </p>`,
+                                                                                                                                imageUrl: '/assets/images/enfermedades/moquillo.jpg',
+                                                                                                                                imageWidth: 400,
+                                                                                                                                imageHeight: 200,
+                                                                                                                                imageAlt: 'Custom image',
+                                                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                                                confirmButtonText: 'Ver tratamiento',
+                                                                                                                                showCancelButton: true,
+                                                                                                                                cancelButtonText: 'Cerrar',
+                                                                                                                            }).then((result) => {
+                                                                                                                                if (result.isConfirmed) {
+
+                                                                                                                                    Swal.fire({
+                                                                                                                                        title: 'Tratamiento para: ' + enfermedad,
+                                                                                                                                        imageUrl: '/assets/images/enfermedades/moquillo.jpg',
+                                                                                                                                        imageWidth: 400,
+                                                                                                                                        imageHeight: 200,
+                                                                                                                                        imageAlt: 'Custom image',
+                                                                                                                                        html: `<p style="font-size:14px;">Actualmente no se conoce ningún tratamiento farmacológico para atacar al virus del
+                                                                                                                                                <b> moquillo </b> canino y curar el distemper o enfermedad de Carré. Únicamente se lleva a cabo
+                                                                                                                                                un tratamiento de soporte para ayudar al propio organismo del animal a combatir la
+                                                                                                                                                infección. En la gran mayoría de los casos es necesaria la hospitalización del perro.
+                                                                                                                                                En esos casos, el aporte de fluidos por vía intravenosa es fundamental para evitar la
+                                                                                                                                                deshidratación y suplementar con nutrientes al paciente con anorexia y diarrea. A medida
+                                                                                                                                                que el perro comience a comer, se puede recurrir a alimentos específicos de fácil
+                                                                                                                                                digestión y alta energía. </p> <a style="font-size:14px;" href="https://www.ortocanis.com/blog/el-moquillo-en-los-perros-y-su-tratamiento/#:~:text=No%20existe%20actualmente%20ning%C3%BAn%20tratamiento,para%20evitar%20propagar%20la%20enfermedad." target="_blanck">Click aquí para mayor información</a>`,
+                                                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                                                        confirmButtonText: 'Aceptar',
+                                                                                                                                        showCloseButton: true,
+                                                                                                                                        showCancelButton: true,
+                                                                                                                                        cancelButtonText: 'Cerrar',
+                                                                                                                                        focusConfirm: false,
+
+                                                                                                                                    })
+
+                                                                                                                                }
+                                                                                                                            });
+
+                                                                                                                        }
+                                                                                                                    })
+
+                                                                                                                }
+                                                                                                            })
+
+                                                                                                        }
+                                                                                                    })
+
+                                                                                                }
+                                                                                            })
+
+                                                                                        }
+                                                                                    })
+
+                                                                                }
+                                                                            })
+
+                                                                        }
+                                                                    })
+
+                                                                }
+                                                            })
+
+                                                        }
+                                                    })
+
+                                                }
+                                            })
+
+                                        }
+                                    })
+
+                                }
+                            })
+
+                        }
+                    })
+
+                }
+            })
+
+        }
+    })
+
+
+}
 
 
 
@@ -274,3 +683,62 @@
 
 
 
+
+
+
+
+// Swal.fire({
+//     title: '¿Tiene dificultad respiratoria?',
+//     text: 'Responda SI o NO',
+//     imageUrl: '/assets/images/enfermedades/rasca_orejas.jpg',
+//     imageWidth: 400,
+//     imageHeight: 200,
+//     imageAlt: 'Custom image',
+//     showCancelButton: true,
+//     cancelButtonText: 'No',
+//     confirmButtonColor: '#eca8b2',
+//     confirmButtonText: 'Si',
+//     allowOutsideClick: false
+// }).then((result) => {
+//     if(result.isConfirmed){
+
+//     }
+// })
+
+
+
+// enfermedad = "Otitis";
+// document.getElementById('diagnostico-enfermedad').innerHTML = enfermedad;
+
+// Swal.fire({
+//     title: 'Diagnostico',
+//     html: `<p style="font-size:14px;">Respecto a los datos ingresados se diagnosticó: <b> <span> ${enfermedad}</span> </b> </p>`,
+//     imageUrl: '/assets/images/enfermedades/otitis.jpg',
+//     imageWidth: 400,
+//     imageHeight: 200,
+//     imageAlt: 'Custom image',
+//     confirmButtonColor: '#eca8b2',
+//     confirmButtonText: 'Ver tratamiento',
+//     showCancelButton: true,
+//     cancelButtonText: 'Cerrar',
+// }).then((result) => {
+//     if (result.isConfirmed) {
+
+//         Swal.fire({
+//             title: 'Tratamiento para: ' + enfermedad,
+//             imageUrl: '/assets/images/enfermedades/otitis.jpg',
+//             imageWidth: 400,
+//             imageHeight: 200,
+//             imageAlt: 'Custom image',
+//             html: `<p style="font-size:14px;">En general el tratamiento para <b> ${enfermedad}</b>  debe eliminar la causa primaria, controlar las infecciones bacterianas y fúngicas oportunistas y mantener limpio y seco el conducto auditivo con diversas modalidades de tratamiento según la gravedad del cuadro; de sustancias limpiadoras y ceruminolíticas, a corticosteroides tópicos hasta la necesidad de limpiar el conducto bajo anestesia general en casos graves. Una vez realizada la limpieza se tratará el oído dependiendo de qué agente está actuando: acaricidas, antifúngicos o antibióticos. Además de la vía tópica se utilizará la parenteral y/u oral para favorecer la resolución del proce </p> `,
+//             confirmButtonColor: '#eca8b2',
+//             confirmButtonText: 'Aceptar',
+//             showCloseButton: true,
+//             showCancelButton: true,
+//             cancelButtonText: 'Cerrar',
+//             focusConfirm: false,
+
+//         })
+
+//     }
+// });
