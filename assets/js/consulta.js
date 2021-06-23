@@ -2024,6 +2024,529 @@ function iniciarConsulta() {
                                                                                         }
                                                                                     })
 
+                                                                                } else {
+
+                                                                                    Swal.fire({
+                                                                                        title: '¿Tiene baja de globulos blancos?',
+                                                                                        text: 'Responda SI o NO',
+                                                                                        imageUrl: imagenBaja_globulos_blancos,
+                                                                                        imageWidth: 400,
+                                                                                        imageHeight: 200,
+                                                                                        imageAlt: 'Custom image',
+                                                                                        showCancelButton: true,
+                                                                                        cancelButtonText: 'No',
+                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                        confirmButtonText: 'Si',
+                                                                                        allowOutsideClick: false
+                                                                                    }).then((result) => {
+                                                                                        if (result.isConfirmed) {
+
+                                                                                            Swal.fire({
+                                                                                                title: '¿Tiene anorexia?',
+                                                                                                text: 'Responda SI o NO',
+                                                                                                imageUrl: imagenAnorexia,
+                                                                                                imageWidth: 400,
+                                                                                                imageHeight: 200,
+                                                                                                imageAlt: 'Custom image',
+                                                                                                showCancelButton: true,
+                                                                                                cancelButtonText: 'No',
+                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                confirmButtonText: 'Si',
+                                                                                                allowOutsideClick: false
+                                                                                            }).then((result) => {
+                                                                                                if (result.isConfirmed) {
+                                                                                                    Swal.fire({
+                                                                                                        title: '¿Tiene diarrea?',
+                                                                                                        text: 'Responda SI o NO',
+                                                                                                        imageUrl: imagenDiarrea,
+                                                                                                        imageWidth: 400,
+                                                                                                        imageHeight: 200,
+                                                                                                        imageAlt: 'Custom image',
+                                                                                                        showCancelButton: true,
+                                                                                                        cancelButtonText: 'No',
+                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                        confirmButtonText: 'Si',
+                                                                                                        allowOutsideClick: false
+                                                                                                    }).then((result) => {
+                                                                                                        if (result.isConfirmed) {
+                                                                                                            Swal.fire({
+                                                                                                                title: '¿Tiene vomito?',
+                                                                                                                text: 'Responda SI o NO',
+                                                                                                                imageUrl: imagenVomito,
+                                                                                                                imageWidth: 400,
+                                                                                                                imageHeight: 200,
+                                                                                                                imageAlt: 'Custom image',
+                                                                                                                showCancelButton: true,
+                                                                                                                cancelButtonText: 'No',
+                                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                                confirmButtonText: 'Si',
+                                                                                                                allowOutsideClick: false
+                                                                                                            }).then((result) => {
+                                                                                                                if (result.isConfirmed) {
+                                                                                                                    Swal.fire({
+                                                                                                                        title: '¿Tiene fiebre?',
+                                                                                                                        text: 'Responda SI o NO',
+                                                                                                                        imageUrl: imagenFiebre,
+                                                                                                                        imageWidth: 400,
+                                                                                                                        imageHeight: 200,
+                                                                                                                        imageAlt: 'Custom image',
+                                                                                                                        showCancelButton: true,
+                                                                                                                        cancelButtonText: 'No',
+                                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                                        confirmButtonText: 'Si',
+                                                                                                                        allowOutsideClick: false
+                                                                                                                    }).then((result) => {
+                                                                                                                        if (result.isConfirmed) {
+                                                                                                                            Swal.fire({
+                                                                                                                                title: '¿Tiene debilidad?',
+                                                                                                                                text: 'Responda SI o NO',
+                                                                                                                                imageUrl: imagenDebilidad,
+                                                                                                                                imageWidth: 400,
+                                                                                                                                imageHeight: 200,
+                                                                                                                                imageAlt: 'Custom image',
+                                                                                                                                showCancelButton: true,
+                                                                                                                                cancelButtonText: 'No',
+                                                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                                                confirmButtonText: 'Si',
+                                                                                                                                allowOutsideClick: false
+                                                                                                                            }).then((result) => {
+                                                                                                                                if (result.isConfirmed) {
+                                                                                                                                    Swal.fire({
+                                                                                                                                        title: '¿Tiene hipotermia?',
+                                                                                                                                        text: 'Responda SI o NO',
+                                                                                                                                        imageUrl: imagenHipotermia,
+                                                                                                                                        imageWidth: 400,
+                                                                                                                                        imageHeight: 200,
+                                                                                                                                        imageAlt: 'Custom image',
+                                                                                                                                        showCancelButton: true,
+                                                                                                                                        cancelButtonText: 'No',
+                                                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                                                        confirmButtonText: 'Si',
+                                                                                                                                        allowOutsideClick: false
+                                                                                                                                    }).then((result) => {
+                                                                                                                                        if (result.isConfirmed) {
+
+                                                                                                                                            document.getElementById('diagnostico-enfermedad').innerHTML = enfermedadPanleucopeniaFelina;
+
+                                                                                                                                            Swal.fire({
+                                                                                                                                                title: 'Diagnostico',
+                                                                                                                                                html: `<p style="font-size:14px;">Respecto a los datos ingresados se diagnosticó: <b> <span> ${enfermedadPanleucopeniaFelina}</span> </b> </p>`,
+                                                                                                                                                imageUrl: imagenEnfermedadPanleucopeniaFelina,
+                                                                                                                                                imageWidth: 400,
+                                                                                                                                                imageHeight: 200,
+                                                                                                                                                imageAlt: 'Custom image',
+                                                                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                                                                confirmButtonText: 'Ver tratamiento',
+                                                                                                                                                showCancelButton: true,
+                                                                                                                                                cancelButtonText: 'Cerrar',
+                                                                                                                                            }).then((result) => {
+                                                                                                                                                if (result.isConfirmed) {
+
+                                                                                                                                                    Swal.fire({
+                                                                                                                                                        title: 'Tratamiento para: ' + enfermedadPanleucopeniaFelina,
+                                                                                                                                                        imageUrl: imagenEnfermedadPanleucopeniaFelina,
+                                                                                                                                                        imageWidth: 400,
+                                                                                                                                                        imageHeight: 200,
+                                                                                                                                                        imageAlt: 'Custom image',
+                                                                                                                                                        html: tratamientoPanleucopeniaFelina,
+                                                                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                                                                        confirmButtonText: 'Aceptar',
+                                                                                                                                                        showCloseButton: true,
+                                                                                                                                                        showCancelButton: true,
+                                                                                                                                                        cancelButtonText: 'Cerrar',
+                                                                                                                                                        focusConfirm: false,
+
+                                                                                                                                                    })
+
+                                                                                                                                                }
+                                                                                                                                            });
+                                                                                                                                        }
+                                                                                                                                    })
+                                                                                                                                }
+                                                                                                                            })
+                                                                                                                        }
+                                                                                                                    })
+                                                                                                                }
+                                                                                                            })
+                                                                                                        }
+                                                                                                    })
+                                                                                                }
+                                                                                            })
+
+                                                                                        } else {
+
+                                                                                            Swal.fire({
+                                                                                                title: '¿Tiene infecciones en la boca?',
+                                                                                                text: 'Responda SI o NO',
+                                                                                                imageUrl: imagenInfeccion_boca,
+                                                                                                imageWidth: 400,
+                                                                                                imageHeight: 200,
+                                                                                                imageAlt: 'Custom image',
+                                                                                                showCancelButton: true,
+                                                                                                cancelButtonText: 'No',
+                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                confirmButtonText: 'Si',
+                                                                                                allowOutsideClick: false
+                                                                                            }).then((result) => {
+                                                                                                if (result.isConfirmed) {
+                                                                                                    Swal.fire({
+                                                                                                        title: '¿Tiene patologias respiratorias?',
+                                                                                                        text: 'Responda SI o NO',
+                                                                                                        imageUrl: imagenPatologias_respiratorias,
+                                                                                                        imageWidth: 400,
+                                                                                                        imageHeight: 200,
+                                                                                                        imageAlt: 'Custom image',
+                                                                                                        showCancelButton: true,
+                                                                                                        cancelButtonText: 'No',
+                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                        confirmButtonText: 'Si',
+                                                                                                        allowOutsideClick: false
+                                                                                                    }).then((result) => {
+                                                                                                        if (result.isConfirmed) {
+                                                                                                            Swal.fire({
+                                                                                                                title: '¿Tiene infecciones intestinales?',
+                                                                                                                text: 'Responda SI o NO',
+                                                                                                                imageUrl: imagenInfecciones_intestinales,
+                                                                                                                imageWidth: 400,
+                                                                                                                imageHeight: 200,
+                                                                                                                imageAlt: 'Custom image',
+                                                                                                                showCancelButton: true,
+                                                                                                                cancelButtonText: 'No',
+                                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                                confirmButtonText: 'Si',
+                                                                                                                allowOutsideClick: false
+                                                                                                            }).then((result) => {
+                                                                                                                if (result.isConfirmed) {
+                                                                                                                    Swal.fire({
+                                                                                                                        title: '¿Tiene perdida de peso?',
+                                                                                                                        text: 'Responda SI o NO',
+                                                                                                                        imageUrl: imagenPerdida_peso,
+                                                                                                                        imageWidth: 400,
+                                                                                                                        imageHeight: 200,
+                                                                                                                        imageAlt: 'Custom image',
+                                                                                                                        showCancelButton: true,
+                                                                                                                        cancelButtonText: 'No',
+                                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                                        confirmButtonText: 'Si',
+                                                                                                                        allowOutsideClick: false
+                                                                                                                    }).then((result) => {
+                                                                                                                        if (result.isConfirmed) {
+                                                                                                                            Swal.fire({
+                                                                                                                                title: '¿Tiene fiebre?',
+                                                                                                                                text: 'Responda SI o NO',
+                                                                                                                                imageUrl: imagenFiebre,
+                                                                                                                                imageWidth: 400,
+                                                                                                                                imageHeight: 200,
+                                                                                                                                imageAlt: 'Custom image',
+                                                                                                                                showCancelButton: true,
+                                                                                                                                cancelButtonText: 'No',
+                                                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                                                confirmButtonText: 'Si',
+                                                                                                                                allowOutsideClick: false
+                                                                                                                            }).then((result) => {
+                                                                                                                                if (result.isConfirmed) {
+                                                                                                                                    Swal.fire({
+                                                                                                                                        title: '¿Tiene infecciones vacterianas?',
+                                                                                                                                        text: 'Responda SI o NO',
+                                                                                                                                        imageUrl: imagenInfecciones_vacterianas,
+                                                                                                                                        imageWidth: 400,
+                                                                                                                                        imageHeight: 200,
+                                                                                                                                        imageAlt: 'Custom image',
+                                                                                                                                        showCancelButton: true,
+                                                                                                                                        cancelButtonText: 'No',
+                                                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                                                        confirmButtonText: 'Si',
+                                                                                                                                        allowOutsideClick: false
+                                                                                                                                    }).then((result) => {
+                                                                                                                                        if (result.isConfirmed) {
+                                                                                                                                            document.getElementById('diagnostico-enfermedad').innerHTML = enfermedadInmunodeficienciaFelina;
+
+                                                                                                                                            Swal.fire({
+                                                                                                                                                title: 'Diagnostico',
+                                                                                                                                                html: `<p style="font-size:14px;">Respecto a los datos ingresados se diagnosticó: <b> <span> ${enfermedadInmunodeficienciaFelina}</span> </b> </p>`,
+                                                                                                                                                imageUrl: imagenEnfermedadInmunodeficienciaFelina,
+                                                                                                                                                imageWidth: 400,
+                                                                                                                                                imageHeight: 200,
+                                                                                                                                                imageAlt: 'Custom image',
+                                                                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                                                                confirmButtonText: 'Ver tratamiento',
+                                                                                                                                                showCancelButton: true,
+                                                                                                                                                cancelButtonText: 'Cerrar',
+                                                                                                                                            }).then((result) => {
+                                                                                                                                                if (result.isConfirmed) {
+
+                                                                                                                                                    Swal.fire({
+                                                                                                                                                        title: 'Tratamiento para: ' + enfermedadInmunodeficienciaFelina,
+                                                                                                                                                        imageUrl: imagenEnfermedadInmunodeficienciaFelina,
+                                                                                                                                                        imageWidth: 400,
+                                                                                                                                                        imageHeight: 200,
+                                                                                                                                                        imageAlt: 'Custom image',
+                                                                                                                                                        html: tratamientoInmunodeficienciaFelina,
+                                                                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                                                                        confirmButtonText: 'Aceptar',
+                                                                                                                                                        showCloseButton: true,
+                                                                                                                                                        showCancelButton: true,
+                                                                                                                                                        cancelButtonText: 'Cerrar',
+                                                                                                                                                        focusConfirm: false,
+
+                                                                                                                                                    })
+
+                                                                                                                                                }
+                                                                                                                                            });
+                                                                                                                                        }
+                                                                                                                                    })
+                                                                                                                                }
+                                                                                                                            })
+                                                                                                                        }
+                                                                                                                    })
+                                                                                                                }
+                                                                                                            })
+                                                                                                        }
+                                                                                                    })
+                                                                                                } else {
+
+                                                                                                    Swal.fire({
+                                                                                                        title: '¿Tiene aumento de volumen del abdomen?',
+                                                                                                        text: 'Responda SI o NO',
+                                                                                                        imageUrl: imagenAumento_volumen_estomago,
+                                                                                                        imageWidth: 400,
+                                                                                                        imageHeight: 200,
+                                                                                                        imageAlt: 'Custom image',
+                                                                                                        showCancelButton: true,
+                                                                                                        cancelButtonText: 'No',
+                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                        confirmButtonText: 'Si',
+                                                                                                        allowOutsideClick: false
+                                                                                                    }).then((result) => {
+                                                                                                        if (result.isConfirmed) {
+                                                                                                            Swal.fire({
+                                                                                                                title: '¿Tiene anorexia?',
+                                                                                                                text: 'Responda SI o NO',
+                                                                                                                imageUrl: imagenAnorexia,
+                                                                                                                imageWidth: 400,
+                                                                                                                imageHeight: 200,
+                                                                                                                imageAlt: 'Custom image',
+                                                                                                                showCancelButton: true,
+                                                                                                                cancelButtonText: 'No',
+                                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                                confirmButtonText: 'Si',
+                                                                                                                allowOutsideClick: false
+                                                                                                            }).then((result) => {
+                                                                                                                if (result.isConfirmed) {
+                                                                                                                    Swal.fire({
+                                                                                                                        title: '¿Tiene fiebre?',
+                                                                                                                        text: 'Responda SI o NO',
+                                                                                                                        imageUrl: imagenFiebre,
+                                                                                                                        imageWidth: 400,
+                                                                                                                        imageHeight: 200,
+                                                                                                                        imageAlt: 'Custom image',
+                                                                                                                        showCancelButton: true,
+                                                                                                                        cancelButtonText: 'No',
+                                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                                        confirmButtonText: 'Si',
+                                                                                                                        allowOutsideClick: false
+                                                                                                                    }).then((result) => {
+                                                                                                                        if (result.isConfirmed) {
+                                                                                                                            Swal.fire({
+                                                                                                                                title: '¿Tiene acumulacion de liquido en el abdomen?',
+                                                                                                                                text: 'Responda SI o NO',
+                                                                                                                                imageUrl: imagenAcumulacion_liquido_abdomen,
+                                                                                                                                imageWidth: 400,
+                                                                                                                                imageHeight: 200,
+                                                                                                                                imageAlt: 'Custom image',
+                                                                                                                                showCancelButton: true,
+                                                                                                                                cancelButtonText: 'No',
+                                                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                                                confirmButtonText: 'Si',
+                                                                                                                                allowOutsideClick: false
+                                                                                                                            }).then((result) => {
+                                                                                                                                if (result.isConfirmed) {
+                                                                                                                                    Swal.fire({
+                                                                                                                                        title: '¿Tiene perdidad de apetito?',
+                                                                                                                                        text: 'Responda SI o NO',
+                                                                                                                                        imageUrl: imagenPerdida_apetito,
+                                                                                                                                        imageWidth: 400,
+                                                                                                                                        imageHeight: 200,
+                                                                                                                                        imageAlt: 'Custom image',
+                                                                                                                                        showCancelButton: true,
+                                                                                                                                        cancelButtonText: 'No',
+                                                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                                                        confirmButtonText: 'Si',
+                                                                                                                                        allowOutsideClick: false
+                                                                                                                                    }).then((result) => {
+                                                                                                                                        if (result.isConfirmed) {
+                                                                                                                                            document.getElementById('diagnostico-enfermedad').innerHTML = enfermedadPeritonitis;
+
+                                                                                                                                            Swal.fire({
+                                                                                                                                                title: 'Diagnostico',
+                                                                                                                                                html: `<p style="font-size:14px;">Respecto a los datos ingresados se diagnosticó: <b> <span> ${enfermedadPeritonitis}</span> </b> </p>`,
+                                                                                                                                                imageUrl: imagenEnfermedadPeritonitis,
+                                                                                                                                                imageWidth: 400,
+                                                                                                                                                imageHeight: 200,
+                                                                                                                                                imageAlt: 'Custom image',
+                                                                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                                                                confirmButtonText: 'Ver tratamiento',
+                                                                                                                                                showCancelButton: true,
+                                                                                                                                                cancelButtonText: 'Cerrar',
+                                                                                                                                            }).then((result) => {
+                                                                                                                                                if (result.isConfirmed) {
+
+                                                                                                                                                    Swal.fire({
+                                                                                                                                                        title: 'Tratamiento para: ' + enfermedadPeritonitis,
+                                                                                                                                                        imageUrl: imagenEnfermedadPeritonitis,
+                                                                                                                                                        imageWidth: 400,
+                                                                                                                                                        imageHeight: 200,
+                                                                                                                                                        imageAlt: 'Custom image',
+                                                                                                                                                        html: tratamientoPeritonitis,
+                                                                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                                                                        confirmButtonText: 'Aceptar',
+                                                                                                                                                        showCloseButton: true,
+                                                                                                                                                        showCancelButton: true,
+                                                                                                                                                        cancelButtonText: 'Cerrar',
+                                                                                                                                                        focusConfirm: false,
+
+                                                                                                                                                    })
+
+                                                                                                                                                }
+                                                                                                                                            });
+                                                                                                                                        }
+                                                                                                                                    })
+                                                                                                                                }
+                                                                                                                            })
+
+                                                                                                                        }
+                                                                                                                    })
+                                                                                                                }
+                                                                                                            })
+                                                                                                        } else {
+
+                                                                                                            Swal.fire({
+                                                                                                                title: '¿Tiene dolor al orinar?',
+                                                                                                                text: 'Responda SI o NO',
+                                                                                                                imageUrl: imagenDolor_orinar,
+                                                                                                                imageWidth: 400,
+                                                                                                                imageHeight: 200,
+                                                                                                                imageAlt: 'Custom image',
+                                                                                                                showCancelButton: true,
+                                                                                                                cancelButtonText: 'No',
+                                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                                confirmButtonText: 'Si',
+                                                                                                                allowOutsideClick: false
+                                                                                                            }).then((result) => {
+                                                                                                                if (result.isConfirmed) {
+                                                                                                                    Swal.fire({
+                                                                                                                        title: '¿Tiene vomito?',
+                                                                                                                        text: 'Responda SI o NO',
+                                                                                                                        imageUrl: imagenVomito,
+                                                                                                                        imageWidth: 400,
+                                                                                                                        imageHeight: 200,
+                                                                                                                        imageAlt: 'Custom image',
+                                                                                                                        showCancelButton: true,
+                                                                                                                        cancelButtonText: 'No',
+                                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                                        confirmButtonText: 'Si',
+                                                                                                                        allowOutsideClick: false
+                                                                                                                    }).then((result) => {
+                                                                                                                        if (result.isConfirmed) {
+                                                                                                                            Swal.fire({
+                                                                                                                                title: '¿Tiene mucha sed?',
+                                                                                                                                text: 'Responda SI o NO',
+                                                                                                                                imageUrl: imagenSed,
+                                                                                                                                imageWidth: 400,
+                                                                                                                                imageHeight: 200,
+                                                                                                                                imageAlt: 'Custom image',
+                                                                                                                                showCancelButton: true,
+                                                                                                                                cancelButtonText: 'No',
+                                                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                                                confirmButtonText: 'Si',
+                                                                                                                                allowOutsideClick: false
+                                                                                                                            }).then((result) => {
+                                                                                                                                if (result.isConfirmed) {
+                                                                                                                                    Swal.fire({
+                                                                                                                                        title: '¿Tiene ausencia total de miccion?',
+                                                                                                                                        text: 'Responda SI o NO',
+                                                                                                                                        imageUrl: imagenAusencia_miccion,
+                                                                                                                                        imageWidth: 400,
+                                                                                                                                        imageHeight: 200,
+                                                                                                                                        imageAlt: 'Custom image',
+                                                                                                                                        showCancelButton: true,
+                                                                                                                                        cancelButtonText: 'No',
+                                                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                                                        confirmButtonText: 'Si',
+                                                                                                                                        allowOutsideClick: false
+                                                                                                                                    }).then((result) => {
+                                                                                                                                        if (result.isConfirmed) {
+                                                                                                                                            Swal.fire({
+                                                                                                                                                title: '¿Se lame la zona urinaria?',
+                                                                                                                                                text: 'Responda SI o NO',
+                                                                                                                                                imageUrl: imagenLame_zona_urinaria,
+                                                                                                                                                imageWidth: 400,
+                                                                                                                                                imageHeight: 200,
+                                                                                                                                                imageAlt: 'Custom image',
+                                                                                                                                                showCancelButton: true,
+                                                                                                                                                cancelButtonText: 'No',
+                                                                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                                                                confirmButtonText: 'Si',
+                                                                                                                                                allowOutsideClick: false
+                                                                                                                                            }).then((result) => {
+                                                                                                                                                if (result.isConfirmed) {
+
+
+                                                                                                                                                    document.getElementById('diagnostico-enfermedad').innerHTML = enfermedadCistitis;
+
+                                                                                                                                                    Swal.fire({
+                                                                                                                                                        title: 'Diagnostico',
+                                                                                                                                                        html: `<p style="font-size:14px;">Respecto a los datos ingresados se diagnosticó: <b> <span> ${enfermedadCistitis}</span> </b> </p>`,
+                                                                                                                                                        imageUrl: imagenEnfermedadCistitis,
+                                                                                                                                                        imageWidth: 400,
+                                                                                                                                                        imageHeight: 200,
+                                                                                                                                                        imageAlt: 'Custom image',
+                                                                                                                                                        confirmButtonColor: '#eca8b2',
+                                                                                                                                                        confirmButtonText: 'Ver tratamiento',
+                                                                                                                                                        showCancelButton: true,
+                                                                                                                                                        cancelButtonText: 'Cerrar',
+                                                                                                                                                    }).then((result) => {
+                                                                                                                                                        if (result.isConfirmed) {
+
+                                                                                                                                                            Swal.fire({
+                                                                                                                                                                title: 'Tratamiento para: ' + enfermedadCistitis,
+                                                                                                                                                                imageUrl: imagenEnfermedadCistitis,
+                                                                                                                                                                imageWidth: 400,
+                                                                                                                                                                imageHeight: 200,
+                                                                                                                                                                imageAlt: 'Custom image',
+                                                                                                                                                                html: tratamientoCistitis,
+                                                                                                                                                                confirmButtonColor: '#eca8b2',
+                                                                                                                                                                confirmButtonText: 'Aceptar',
+                                                                                                                                                                showCloseButton: true,
+                                                                                                                                                                showCancelButton: true,
+                                                                                                                                                                cancelButtonText: 'Cerrar',
+                                                                                                                                                                focusConfirm: false,
+
+                                                                                                                                                            })
+
+                                                                                                                                                        }
+                                                                                                                                                    });
+                                                                                                                                                }
+                                                                                                                                            })
+                                                                                                                                        }
+                                                                                                                                    })
+
+                                                                                                                                }
+                                                                                                                            })
+                                                                                                                        }
+                                                                                                                    })
+                                                                                                                }
+                                                                                                            })
+
+                                                                                                        }
+                                                                                                    })
+
+                                                                                                }
+                                                                                            })
+
+                                                                                        }
+                                                                                    })
+
                                                                                 }
                                                                             })
 
