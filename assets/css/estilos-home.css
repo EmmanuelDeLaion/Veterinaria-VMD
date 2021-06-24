@@ -30,9 +30,8 @@ body {
 
 .botones {
     position: absolute;
-    width: 600px;
     top: 40%;
-    left: 29%;
+    left: 14%;
     transform: translate(-50%, -50%);
 }
 
@@ -67,4 +66,28 @@ body {
 
 .titulo-diagnostico{
     font-weight: bolder;
+}
+
+
+/* medias  */
+@media (max-width: 500px) {
+    .logo {
+        width: 250px;
+        top: 10%;
+        left: 38%;
+        transform: translate(-50%, -50%);
+    }
+
+    .diagnostico{
+        top: 25%;
+    }
+
+    .botones{
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+     
 }
