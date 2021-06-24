@@ -31,9 +31,8 @@ body {
 
 .botones {
     position: absolute;
-    width: 600px;
     top: 48%;
-    left: 69%;
+    left: 56%;
     transform: translate(-50%, -50%);
 }
 
@@ -69,4 +68,27 @@ body {
     background-color: #fff;
     color: #eca8b2;
     border: 1px solid #fff;
+}
+
+/* medias  */
+
+@media (max-width: 500px) {
+    .logo {
+        width: 250px;
+        top: 10%;
+        left: 38%;
+        transform: translate(-50%, -50%);
+    }
+
+    .botones {
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(255, 255, 255, 0.4);
+         backdrop-filter: blur(3.5px);
+        -webkit-backdrop-filter: blur(3.5px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        padding: 20px;
+    }
 }
